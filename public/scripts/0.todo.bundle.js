@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],[,function(o,t,n){"use strict";n(0).module("todoListApp",[]),n(3)},,function(o,t,n){"use strict";n(0).module("todoListApp").controller("mainCtrl",function(o,t){t.getTodos(function(t){var n=t.data.todo;o.todos=n}),o.addTodo=function(){o.todos.unshift({name:"This is a new todo.",completed:!1})}})}],[[1,1,2]]]);
